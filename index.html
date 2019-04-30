@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Princeton Housing Screwed Up!</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>How Princeton Housing Screwed Up</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11907,77 +11907,6 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">upperclass18</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">upperclass19</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">indep19</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>        PUID        Draw Time  Group ID    Last Name First Name  Class Yr  \
-0  961192206  4/30/18 9:00 AM      2244          Ryu     Joseph      2019   
-1  961168593  4/30/18 9:00 AM      2244         Chiu     Claire      2019   
-2  961074690  4/30/18 9:00 AM      2244       Martin       Jake      2019   
-3  961186500  4/30/18 9:04 AM      1200        Molot        Max      2019   
-4  961177539  4/30/18 9:04 AM      1200  Agostinelli      Kevin      2019   
-
-      Score  
-0  0.001414  
-1  0.001414  
-2  0.001414  
-3  0.002829  
-4  0.002829  
-        PUID         Draw Time  Group    Last Name First Name  Class Yr  \
-0  961218052  4/26/19 10:00 AM   4955       Galvin    Brendan      2020   
-1  920057146  4/26/19 10:00 AM   4955       Haddad      Ramzi      2020   
-2  920094008  4/26/19 10:00 AM   4955  Hildenbrand   Benjamin      2020   
-3  920059788  4/26/19 10:00 AM   4955    Kilgallon       Jack      2020   
-4  920053806  4/26/19 10:00 AM   4955      Harding      David      2020   
-
-      Score  
-0  0.001656  
-1  0.001656  
-2  0.001656  
-3  0.001656  
-4  0.001656  
-        PUID         Draw Time  Group  Last Name First Name  Class Yr  \
-0  920060298  4/10/19 12:15 PM   3871        Mon     Serena      2020   
-1  961142764  4/10/19 12:18 PM   4789     Orlova     Maggie      2020   
-2  961095381  4/10/19 12:18 PM   4789      Zhang      Gemma      2020   
-3  920090028  4/10/19 12:18 PM   4789       Long     Olivia      2020   
-4  920057264  4/10/19 12:21 PM   4856  Braverman      Dovid      2020   
-
-      Score  
-0  0.004545  
-1  0.009091  
-2  0.009091  
-3  0.009091  
-4  0.013636  
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12017,56 +11946,6 @@ div#notebook {
 </pre></div>
 
 </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">u19_groups</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">u18_groups</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">i19_groups</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>   Group  n_Students     Score  n_Seniors  n_Juniors
-0   4955           6  0.000000          6          0
-1   3435           7  0.001656          7          0
-2   5305           1  0.003311          1          0
-3   5252           3  0.004967          3          0
-4   4841           3  0.006623          3          0
-   Group  n_Students     Score  n_Seniors  n_Juniors
-0   2244           3  0.000000          3          0
-1   1200           4  0.001414          4          0
-2   2120           8  0.002829          8          0
-3   2536           5  0.004243          5          0
-4   1931           3  0.005658          3          0
-   Group  n_Students     Score  n_Seniors  n_Juniors
-0   3871           1  0.000000          1          0
-1   4789           3  0.001414          3          0
-2   4856           4  0.002829          4          0
-3   4262           5  0.004243          5          0
-4   4111           8  0.005658          8          0
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13299,48 +13178,6 @@ AAAASUVORK5CYII=
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">forbes18</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;lists/ForbesDrawTimesTimeOrder18.csv&quot;</span><span class="p">)</span>
-<span class="n">forbes18_groups_ordered</span> <span class="o">=</span> <span class="n">forbes18</span><span class="p">[</span><span class="s2">&quot;Group ID&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-
-<span class="n">forbes18</span><span class="p">[</span><span class="s2">&quot;Score&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">forbes18</span><span class="p">[</span><span class="s2">&quot;Group ID&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">forbes18_groups_ordered</span> <span class="o">==</span> <span class="n">x</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span>
-<span class="n">forbes18</span><span class="p">[</span><span class="s2">&quot;Score&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">forbes18</span><span class="p">[</span><span class="s2">&quot;Score&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">forbes18_groups_ordered</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">forbes18</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>        PUID       Draw Times  Group ID      Last Name First Name     Score
-0  920102966  4/26/18 9:00 AM        93          Lynch       Liam  0.015152
-1  920107811  4/26/18 9:00 AM        93            Wei    Natalie  0.015152
-2  920191443  4/26/18 9:00 AM        93  Campos Vargas       Joao  0.015152
-3  920191671  4/26/18 9:00 AM        93          Opara        Amy  0.015152
-4  920192144  4/26/18 9:00 AM        93            Lai    Madison  0.015152
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
